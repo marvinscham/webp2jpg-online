@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  webp2jpg:
+    container_name: webp2jpg
+    build: .
+    ports:
+      - 8123:80
